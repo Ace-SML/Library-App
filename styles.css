@@ -22,7 +22,7 @@ main {
 }
 
 .book-card {
-  border: 1px solid #747272;
+  border: 2px solid #747272;
   border-radius: 5px;
   padding: 1rem;
   width: 200px;
