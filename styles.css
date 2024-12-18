@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  background-color: #94c8fd;
+  background-color: rgb(148, 200, 253);
 }
 
 main {
@@ -24,21 +24,26 @@ main {
 .book-card {
   border: 2px solid #000000;
   border-radius: 5px;
-  padding: 1rem;
+  padding: 1.4rem;
   width: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: rgb(200, 253, 200);
 }
 
 button {
   cursor: pointer;
   border: 2px solid;
+  height: 60px;
+  margin-top: 5px;
+  background-color: whitesmoke;
 }
 
 dialog {
   padding: 1rem;
   border: none;
   border-radius: 5px;
-  background: #f1f1f1;
+  background: rgba(0, 128, 255, 0.856);
+  color: white;
 }
